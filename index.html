@@ -21,9 +21,54 @@
 </head>
 <body>
     <div>
-        <h1>VLSP 2021 - TTS DEMO - VITS MODEL</h1>
-        <h2>VITS - Text Only</h2>
+        <h1>Development of Smartcall Vietnamese Text-to-Speech for VLSP 2021</h1>
+        <p>
+            <strong>Author:</strong>
+            Hoai Le Ba, Hoc Nguyen Van, Quyen Dam Ba, Bao Quoc Nguyen
+        </p>
+        <h2>Indomain</h2>
         <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <h4>Text</h4>
+                    </td>
+                    <td class="text">
+                        người ta nói thỉnh thoảng hãy chiều chuộng bản thân một chút, để cân bằng lại với những lúc mà chúng mình sống theo kỷ luật
+                    </td>
+                    <td class="text">
+                        mình là một người ờ rất là thẳng thắn và nhiều khi đến phũ phàng luôn á, thế nhưng mà theo thời gian ý, mình dành rất là nhiều thời gian để mình cố gắng học cái cách giữ im lặng khi cần
+                    </td>
+                    <td class="text">
+                        nhà không cần quá rộng không cần quá xịn, thế nhưng mà rất quan trọng là phải giữ cho nó gọn gàng sạch sẽ
+                    </td>
+                    <td class="text">
+                        ngày hôm nay bạn thử lên mạng học cái cách làm của mấy món ăn uống mà các bạn hay mua, thử xem là chúng mình có thể tự làm ở nhà không nhá
+                    </td>
+                    <td class="text">
+                        không bao giờ được để cho mình không có đồng nào dính túi, tại vì cuộc sống nếu mà xảy ra biến cố cần tiền gấp thì bạn sẽ không có, và cái chuyện đó rất nguy hiểm cho bạn
+                    </td>
+                </tr>
+            </tbody>
+            <tr>
+                <td class="first-col">Ground Truth</td>
+                <td><audio controls preload="none" src="audio/indomain/audio_1-016852-017368.wav"><audio></td>
+                <td><audio controls preload="none" src="audio/indomain/audio_10-007170-008005.wav"><audio></td>
+                <td><audio controls preload="none" src="audio/indomain/audio_11-002036-002559.wav"><audio></td>
+                <td><audio controls preload="none" src="audio/indomain/audio_11-011390-012034.wav"><audio></td>
+                <td><audio controls preload="none" src="audio/indomain/audio_12-010782-011516.wav"><audio></td>
+            </tr>
+            <tr>
+                <td class="first-col">VITS Model</td>
+                <td><audio controls preload="none" src="audio/indomain/1_in.wav"><audio></td>
+                <td><audio controls preload="none" src="audio/indomain/2_in.wav"><audio></td>
+                <td><audio controls preload="none" src="audio/indomain/3_in.wav"><audio></td>
+                <td><audio controls preload="none" src="audio/indomain/4_in.wav"><audio></td>
+                <td><audio controls preload="none" src="audio/indomain/5_in.wav"><audio></td>
+                
+            </tr>
+        </table>
+        <!-- <table>
             <tbody>
                 <tr>
                     <td>
@@ -146,10 +191,10 @@
                 </tr>
             </tbody>
         </table>
-    </div>
+    </div> -->
 
     <div>
-        <h2>News Text</h2>
+        <h2>Outdomain</h2>
         <table>
             <tbody>
                 <tr>
@@ -173,7 +218,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="first-col">VITS (data v2)</td>
+                    <td class="first-col">VITS Model</td>
                     <td><audio controls preload="none" src="audio/news/vits_1.wav"><audio></td>
                     <td><audio controls preload="none" src="audio/news/vits_2.wav"><audio></td>
                     <td><audio controls preload="none" src="audio/news/vits_3.wav"><audio></td>
