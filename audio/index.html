@@ -21,7 +21,11 @@
 </head>
 <body>
     <div>
-        <h1>VLSP 2021 - TTS DEMO</h1>
+        <h1>Development of Smartcall Vietnamese Text-to-Speech for VLSP 2021</h1>
+        <p>
+            <strong>Author:</strong>
+            Hoai Le Ba, Hoc Nguyen Van, Quyen Dam Ba, Bao Quoc Nguyen
+        </p>
         <h2>Training Sample</h2>
         <table>
             <tbody>
@@ -33,7 +37,7 @@
                         nói nghe thì dễ thế nhưng làm thì rất khó từ lúc còn ít tuổi mình luôn biết là nếu muốn mai làm được bài kiểm tra thì đêm nay mình sẽ cần học thuộc bài
                     </td>
                     <td class="text">
-                        rồi mình mới có thể sử dụng lại cái lồng này để chở những con mèo của nhà mình tuyệt đối hết sức cẩn thận để không làm cho cái mầm bệnh nó lây qua cái đường lồng chở nha
+                        rồi mình mới có thể sử dụng lại cái lồng này để chở những con mèo của nhà mình, tuyệt đối hết sức cẩn thận để không làm cho cái mầm bệnh nó lây qua cái đường lồng chở nha
                     </td>
                     <td class="text">
                         tóc và chống rụng tóc cộng thêm nó dưỡng cho cái tóc nó mềm mượt nữa
@@ -54,7 +58,7 @@
                     <td><audio controls preload="none" src="audio/training/gt_5.wav"><audio></td>
 
                 </tr>
-                <tr>
+                <!-- <tr>
                     <td class="first-col">Tacotron + Hifigan (data v2)</td>
                     <td><audio controls preload="none" src="audio/training/tacatron_hifigan_v2_1.wav"><audio></td>
                     <td><audio controls preload="none" src="audio/training/tacatron_hifigan_v2_2.wav"><audio></td>
@@ -62,9 +66,9 @@
                     <td><audio controls preload="none" src="audio/training/tacatron_hifigan_v2_4.wav"><audio></td>
                     <td><audio controls preload="none" src="audio/training/tacatron_hifigan_v2_5.wav"><audio></td>
                     
-                </tr>
+                </tr> -->
                 <tr>
-                    <td class="first-col">Tacotron + Hifigan (data v3)</td>
+                    <td class="first-col">Tacotron + Hifigan</td>
                     <td><audio controls preload="none" src="audio/training/tacatron_hifigan_v3_1.wav"><audio></td>
                     <td><audio controls preload="none" src="audio/training/tacatron_hifigan_v3_2.wav"><audio></td>
                     <td><audio controls preload="none" src="audio/training/tacatron_hifigan_v3_3.wav"><audio></td>
@@ -72,7 +76,7 @@
                     <td><audio controls preload="none" src="audio/training/tacatron_hifigan_v3_5.wav"><audio></td>
                     
                 </tr>
-                <tr>
+                <!-- <tr>
                     <td class="first-col">Tacotron + Hifigan + Denoiser (data v2)</td>
                     <td><audio controls preload="none" src="audio/training/tacatron_hifigan_denoiser_v2_1.wav"><audio></td>
                     <td><audio controls preload="none" src="audio/training/tacatron_hifigan_denoiser_v2_2.wav"><audio></td>
@@ -80,9 +84,9 @@
                     <td><audio controls preload="none" src="audio/training/tacatron_hifigan_denoiser_v2_4.wav"><audio></td>
                     <td><audio controls preload="none" src="audio/training/tacatron_hifigan_denoiser_v2_5.wav"><audio></td>
                     
-                </tr>
+                </tr> -->
                 <tr>
-                    <td class="first-col">Tacotron + Hifigan + Denoiser (data v3)</td>
+                    <td class="first-col">Tacotron + Hifigan + Denoiser (VLSP 2020)</td>
                     <td><audio controls preload="none" src="audio/training/tacatron_hifigan_denoiser_v3_1.wav"><audio></td>
                     <td><audio controls preload="none" src="audio/training/tacatron_hifigan_denoiser_v3_2.wav"><audio></td>
                     <td><audio controls preload="none" src="audio/training/tacatron_hifigan_denoiser_v3_3.wav"><audio></td>
@@ -91,93 +95,12 @@
                     
                 </tr>
                 <tr>
-                    <td class="first-col">VITS (data v2)</td>
-                    <td><audio controls preload="none" src="audio/training/vits_1.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/training/vits_2.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/training/vits_3.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/training/vits_4.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/training/vits_5.wav"><audio></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <div>
-        <h2>Valid Sample</h2>
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <h4>Text</h4>
-                    </td>
-                    <td class="text">
-                        bắt đầu. bước đầu tiên để thực hiện các mục tiêu năm mới của các bạn là làm từng cái một . ví dụ sau khi hết năm cũ thì tất nhiên là ai cũng có nhiều mong muốn cho năm mới
-                    </td>
-                    <td class="text">
-                        xây dựng một thói quen mới là việc cần nhiều thời gian và quyết tâm
-                    </td>
-                    <td class="text">
-                        ai cũng muốn một bước lên núi hết thế nhưng cuộc đời thì không như vậy và những người ở trên đỉnh núi họ đã dành rất nhiều thời gian công sức để ở vị trí của họ ngày hôm nay
-                    </td>
-                    <td class="text">
-                        đã bỏ tiền để vào đây rồi không ăn xả láng thì sẽ rất là phí đúng không tất cả những lí do mà bạn vừa đưa ra trong đầu có vẻ là hợp lí hóa cái bữa ăn xả láng này
-                    </td>
-                    <td class="text">
-                        và bạn ăn và buổi tiếp theo lại là một sự thoải mái hợp lí nữa . rồi hôm sau , rồi hôm sau nữa
-                    </td>
-                </tr>
-                <tr>
-                    <td class="first-col">Ground Truth</td>
-                    <td><audio controls preload="none" src="audio/valid/gt_1.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/gt_2.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/gt_3.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/gt_4.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/gt_5.wav"><audio></td>
-
-                </tr>
-                <tr>
-                    <td class="first-col">Tacotron + Hifigan (data v2)</td>
-                    <td><audio controls preload="none" src="audio/valid/tacatron_hifigan_v2_1.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/tacatron_hifigan_v2_2.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/tacatron_hifigan_v2_3.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/tacatron_hifigan_v2_4.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/tacatron_hifigan_v2_5.wav"><audio></td>
-                    
-                </tr>
-                <tr>
-                    <td class="first-col">Tacotron + Hifigan (data v3)</td>
-                    <td><audio controls preload="none" src="audio/valid/tacatron_hifigan_v3_1.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/tacatron_hifigan_v3_2.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/tacatron_hifigan_v3_3.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/tacatron_hifigan_v3_4.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/tacatron_hifigan_v3_5.wav"><audio></td>
-                    
-                </tr>
-                <tr>
-                    <td class="first-col">Tacotron + Hifigan + Denoiser (data v2)</td>
-                    <td><audio controls preload="none" src="audio/valid/tacatron_hifigan_denoiser_v2_1.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/tacatron_hifigan_denoiser_v2_2.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/tacatron_hifigan_denoiser_v2_3.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/tacatron_hifigan_denoiser_v2_4.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/tacatron_hifigan_denoiser_v2_5.wav"><audio></td>
-                    
-                </tr>
-                <tr>
-                    <td class="first-col">Tacotron + Hifigan + Denoiser (data v3)</td>
-                    <td><audio controls preload="none" src="audio/valid/tacatron_hifigan_denoiser_v3_1.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/tacatron_hifigan_denoiser_v3_2.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/tacatron_hifigan_denoiser_v3_3.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/tacatron_hifigan_denoiser_v3_4.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/tacatron_hifigan_denoiser_v3_5.wav"><audio></td>
-                    
-                </tr>
-                <tr>
-                    <td class="first-col">VITS (data v2)</td>
-                    <td><audio controls preload="none" src="audio/valid/vits_1.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/vits_2.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/vits_3.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/vits_4.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/valid/vits_5.wav"><audio></td>
+                    <td class="first-col">VITS</td>
+                    <td><audio controls preload="none" src="audio/training/vits_in1.wav"><audio></td>
+                    <td><audio controls preload="none" src="audio/training/vits_in2.wav"><audio></td>
+                    <td><audio controls preload="none" src="audio/training/vits_in3.wav"><audio></td>
+                    <td><audio controls preload="none" src="audio/training/vits_in4.wav"><audio></td>
+                    <td><audio controls preload="none" src="audio/training/vits_in5.wav"><audio></td>
                 </tr>
             </tbody>
         </table>
@@ -208,16 +131,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="first-col">Tacotron + Hifigan (data v2)</td>
-                    <td><audio controls preload="none" src="audio/news/tacatron_hifigan_v2_1.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/news/tacatron_hifigan_v2_2.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/news/tacatron_hifigan_v2_3.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/news/tacatron_hifigan_v2_4.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/news/tacatron_hifigan_v2_5.wav"><audio></td>
-                    
-                </tr>
-                <tr>
-                    <td class="first-col">Tacotron + Hifigan (data v3)</td>
+                    <td class="first-col">Tacotron + Hifigan</td>
                     <td><audio controls preload="none" src="audio/news/tacatron_hifigan_v3_1.wav"><audio></td>
                     <td><audio controls preload="none" src="audio/news/tacatron_hifigan_v3_2.wav"><audio></td>
                     <td><audio controls preload="none" src="audio/news/tacatron_hifigan_v3_3.wav"><audio></td>
@@ -226,16 +140,7 @@
                     
                 </tr>
                 <tr>
-                    <td class="first-col">Tacotron + Hifigan + Denoiser (data v2)</td>
-                    <td><audio controls preload="none" src="audio/news/tacatron_hifigan_denoiser_v2_1.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/news/tacatron_hifigan_denoiser_v2_2.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/news/tacatron_hifigan_denoiser_v2_3.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/news/tacatron_hifigan_denoiser_v2_4.wav"><audio></td>
-                    <td><audio controls preload="none" src="audio/news/tacatron_hifigan_denoiser_v2_5.wav"><audio></td>
-                    
-                </tr>
-                <tr>
-                    <td class="first-col">Tacotron + Hifigan + Denoiser (data v3)</td>
+                    <td class="first-col">Tacotron + Hifigan + Denoiser (VLSP 2020)</td>
                     <td><audio controls preload="none" src="audio/news/tacatron_hifigan_denoiser_v3_1.wav"><audio></td>
                     <td><audio controls preload="none" src="audio/news/tacatron_hifigan_denoiser_v3_2.wav"><audio></td>
                     <td><audio controls preload="none" src="audio/news/tacatron_hifigan_denoiser_v3_3.wav"><audio></td>
@@ -244,7 +149,7 @@
                     
                 </tr>
                 <tr>
-                    <td class="first-col">VITS (data v2)</td>
+                    <td class="first-col">VITS</td>
                     <td><audio controls preload="none" src="audio/news/vits_1.wav"><audio></td>
                     <td><audio controls preload="none" src="audio/news/vits_2.wav"><audio></td>
                     <td><audio controls preload="none" src="audio/news/vits_3.wav"><audio></td>
